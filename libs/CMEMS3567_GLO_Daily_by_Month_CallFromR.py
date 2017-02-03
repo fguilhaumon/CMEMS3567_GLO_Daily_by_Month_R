@@ -1,5 +1,8 @@
 #************************Script to download Daily global-analysis-forecast-phys-001-002 month by month************************
 
+
+#slight modifications by fg to match R function args
+
 import subprocess 
 import datetime as dt 
 import time 
