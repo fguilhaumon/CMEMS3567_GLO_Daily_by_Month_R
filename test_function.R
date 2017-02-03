@@ -36,6 +36,7 @@ source("getCMEMS.R")
 ## parameters
 
 ### motu-client.py path
+### this may chnage according to your computer configuration
 motu_cl_lib <- "libs/motu-client-python-master/src/python/motu-client.py"
 
 ### occurence coordinates
