@@ -5,7 +5,7 @@
 # francois.guilhaumon@ird.fr
 ################################################
 
-getCMEMS <- function(
+getCMEMS <- function(scriptPath="libs/CMEMS3567_GLO_Daily_by_Month_CallFromR.py",
 	         python = "python",  #path to python executable
 	         motu_cl = "libs/motu-client-python-master/src/python/motu-client.py", #path to 'motu-client.py' (https://github.com/clstoulouse/motu-client-python),
 	         # Login Credentials
@@ -44,7 +44,7 @@ getCMEMS <- function(
 	command <- "python"
 	
 	#pyhton script path 
-	script <- "libs/CMEMS3567_GLO_Daily_by_Month_CallFromR.py"
+	script <- scriptPath
 	
 	#final command line
 	allArgs <- paste(c(command, script, argums),collapse = " ")
